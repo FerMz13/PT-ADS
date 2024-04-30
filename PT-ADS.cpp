@@ -41,17 +41,17 @@ int main() {
     char arr1[] = {'P', 'T', 'P', 'T', 'P', 'T', 'P', 'T', 'P', 'T'};
     int K1 = 1;
     int n1 = sizeof(arr1) / sizeof(arr1[0]);
-    printf("Ejemplo 1 - Número de emparejamientos exitosos: %d\n", emparejar_policias_ladrones(arr1, n1, K1));
+    printf("Ejemplo 1 - Numero de emparejamientos exitosos: %d\n", emparejar_policias_ladrones(arr1, n1, K1));
 
     char arr2[] = {'T', 'T', 'T', 'P', 'T', 'T', 'T', 'P', 'T', 'P'};
     int K2 = 2;
     int n2 = sizeof(arr2) / sizeof(arr2[0]);
-    printf("Ejemplo 2 - Número de emparejamientos exitosos: %d\n", emparejar_policias_ladrones(arr2, n2, K2));
+    printf("Ejemplo 2 - Numero de emparejamientos exitosos: %d\n", emparejar_policias_ladrones(arr2, n2, K2));
 
     char arr3[] = {'T', 'P', 'T', 'T', 'P', 'T', 'T', 'P', 'P', 'T'};
     int K3 = 3;
     int n3 = sizeof(arr3) / sizeof(arr3[0]);
-    printf("Ejemplo 3 - Número de emparejamientos exitosos: %d\n", emparejar_policias_ladrones(arr3, n3, K3));
+    printf("Ejemplo 3 - Numero de emparejamientos exitosos: %d\n", emparejar_policias_ladrones(arr3, n3, K3));
 
     return 0;
 }
